@@ -1,6 +1,4 @@
-package main
-
-//import "golang.org/x/tour/reader"
+package exercises
 
 // MyReader example
 type MyReader struct{}

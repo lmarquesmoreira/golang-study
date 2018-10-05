@@ -1,9 +1,12 @@
 package main
 
-import "golang.org/x/tour/reader"
+import (
+	"golang-study/gotour/ioreader/exercises"
+
+	"golang.org/x/tour/reader"
+)
 
 func main() {
-	reader.Validate(MyReader{})
-
-	executeRotReader()
+	reader.Validate(exercises.MyReader{})
+	exercises.ExecuteRotReader()
 }
